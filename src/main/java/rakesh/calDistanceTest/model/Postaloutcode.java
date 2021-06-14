@@ -1,4 +1,4 @@
-package rakesh.test.calDistanceTest.model;
+package rakesh.calDistanceTest.model;
 
 import lombok.Data;
 

@@ -1,7 +1,7 @@
-package rakesh.test.calDistanceTest.VO;
+package rakesh.calDistanceTest.VO;
 
 import lombok.Data;
-import rakesh.test.calDistanceTest.model.Postaloutcode;
+import rakesh.calDistanceTest.model.Postaloutcode;
 
 @Data
 public class PostalDistanceVO {

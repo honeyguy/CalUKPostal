@@ -1,11 +1,11 @@
-package rakesh.test.calDistanceTest.service;
+package rakesh.calDistanceTest.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import rakesh.test.calDistanceTest.VO.PostalDistanceVO;
-import rakesh.test.calDistanceTest.exception.PostalNotFoundException;
-import rakesh.test.calDistanceTest.model.Postaloutcode;
-import rakesh.test.calDistanceTest.repo.PostalDistanceRepo;
+import rakesh.calDistanceTest.VO.PostalDistanceVO;
+import rakesh.calDistanceTest.exception.PostalNotFoundException;
+import rakesh.calDistanceTest.model.Postaloutcode;
+import rakesh.calDistanceTest.repo.PostalDistanceRepo;
 
 import javax.transaction.Transactional;
 

@@ -1,13 +1,10 @@
-package rakesh.test.calDistanceTest.controller;
+package rakesh.calDistanceTest.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import rakesh.test.calDistanceTest.VO.PostalDistanceVO;
-import rakesh.test.calDistanceTest.model.Postaloutcode;
-import rakesh.test.calDistanceTest.service.PostalDistanceService;
-
-import java.util.List;
+import rakesh.calDistanceTest.VO.PostalDistanceVO;
+import rakesh.calDistanceTest.service.PostalDistanceService;
 
 @RestController
 @RequestMapping("/postal")

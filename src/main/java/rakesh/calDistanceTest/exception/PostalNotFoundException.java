@@ -1,4 +1,4 @@
-package rakesh.test.calDistanceTest.exception;
+package rakesh.calDistanceTest.exception;
 
 public class PostalNotFoundException extends RuntimeException {
     public PostalNotFoundException(String message) {
